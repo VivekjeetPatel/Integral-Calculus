@@ -15,7 +15,7 @@ public class Integration {
             result += 1.0/2.0*((fx.applyAsDouble(xi)+fx.applyAsDouble(xi+h))*h);
             xi += h;
            
-            if(xi>xf){
+            if(xi>xf){ 
                 break;
             }
 
